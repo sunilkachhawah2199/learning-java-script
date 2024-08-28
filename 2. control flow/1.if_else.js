@@ -16,13 +16,10 @@ if (score > 100) {
 // if else if ----------------------------------------------
 if (score > 100) {
     console.log("You are passed");
-} else if (score > 50) {
+} 
+else if (score > 50) {
     console.log("You are avergae");
 }
 else {
     console.log("You are failed");
 }
-
-
-
-

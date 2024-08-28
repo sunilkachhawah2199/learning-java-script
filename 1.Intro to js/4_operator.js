@@ -18,8 +18,8 @@ assignment operator
 %= --> remainder assignment --> a=a%5 --> a%=5
 
 comparison operator
-== --> equal value (compare only value)
-=== --> equal value and equal type (compare value and type both) | return only true  if type and value both are same
+== --> equal to (compare only value)
+=== --> equal to and type -->equal value and equal type (compare value and type both) | return only true  if type and value both are same
 
 > : greater than
 < : less than

@@ -1,6 +1,6 @@
 // function declaration
 
-function gree(){
+function greet(){
     console.log('Hello');
 }
 

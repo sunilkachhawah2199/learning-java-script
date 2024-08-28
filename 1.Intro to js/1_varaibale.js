@@ -1,7 +1,10 @@
 console.log("hello world")
+// js is dynamically typed language
+// we don't need to specify the data type of variable
 /* 
-var --> function scope
-let --> block scope (recommended)
+var --> global scope variable, value can be changed, re-declared
+let --> block scope (recommended), can be updated, can't be re-declared, undefined when accessed before declaration
+const --> block scope, can't be updated, can't be re-declared, must be initialized at the time of declaration
 */
 
 let num=5;
