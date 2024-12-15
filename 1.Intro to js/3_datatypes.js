@@ -40,8 +40,10 @@ let person = {
     isAdult: true
 };
 
-console.log(typeof(person)); // John
+console.log(typeof(person)); // Object
 console.log(person.name); // John
 
+
+// updating name
 person.name="Sunil";
 console.log(person.name); // Sunil
