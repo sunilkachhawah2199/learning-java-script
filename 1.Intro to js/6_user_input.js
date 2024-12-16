@@ -3,9 +3,8 @@
 // we use console.log() to show output to developer
 
 // prompt() take input from user
-console.log("Enter your name");
-let name= prompt("Enter your name");
+// Prompting user for input
+let userInput = prompt("Please enter your name:");
+console.log("User Input:", userInput);
 
-console.log("Enter your age");
 
-let age=parseInt(prompt("Enter your age"));

@@ -1,4 +1,15 @@
-let fruit="mango";
+switch(varibale){
+    case varibaleValue1:
+        //code block
+        break;
+    case varibaleValue2:
+        // code blocl
+        break;
+    default:
+        // code block
+}
+
+let fruit=String(prompt("enter your fruite name"));
 
 switch(fruit){
     case "banana":

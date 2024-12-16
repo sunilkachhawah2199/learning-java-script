@@ -27,7 +27,7 @@ comparison operator
 <= : less than or equal to
 
 
-!= --> not equal value
+!= --> not equal value, type can be same
 !== --> not equal value and not equal type
 
 

@@ -19,7 +19,6 @@ console.log(typeof(greetExpression)); // function
 
 // difference between greetExpression annd greeExpression(): greetExpression is a function expression and greetExpression() is a function call
 
-greetExpression(); // calling the function expression
 
 
 // function with parameters--------------------------------------------

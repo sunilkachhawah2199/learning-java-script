@@ -32,16 +32,10 @@ switch(fruit){
     case "Apple":
         console.log("the fruit is Apple");
         break;
+    default:
+        console.log("error")
 }
 
 
 // switch ---------------------------------------------------------------------
 
-switch(varibale){
-    case varibaleValue1:
-        //code block
-        break;
-    case varibaleValue2:
-        // code blocl
-        break;
-}

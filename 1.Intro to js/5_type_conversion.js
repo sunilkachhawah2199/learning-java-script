@@ -14,6 +14,13 @@ Implicit conversion to number
 
 
 */
+let a="10";
+console.log(a+10); // 1010 
+a=true;
+console.log(a+10); //11
+console.log(null+1); // 1
+
+
 // explicit type conversion
 let result;
 
@@ -34,7 +41,6 @@ console.log(result, "-", typeof(result));
 result= parseInt("5.5"); // 5
 
 result=Number("5.5"); // 5.5
-
 
 // anything to string
 result=String(5); // "5"
