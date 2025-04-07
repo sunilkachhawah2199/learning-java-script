@@ -1,4 +1,4 @@
-// map method ---------------------------------------------------------------------------------------------
+//------------------------ map method----------------------------
 // it is also a higher order function
 
 // map() method creates a new array with the results of calling a provided function on every element in the calling array
@@ -9,9 +9,9 @@ let newArray = array.map( (val) => {
     return val * 2;
 });
 
-console.log(newArray);
+console.log(newArray); // [ 2,  4,  6,  8, 10, 12, 14, 16, 18, 20]
 
-// filter method ---------------------------------------------------------------------------------------------
+// ---------------------  filter method  -------------------------
 // it is also a higher order function
 //  filter() method creates a new array with all elements that give true for the provided function
 

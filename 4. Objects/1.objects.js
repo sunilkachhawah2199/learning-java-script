@@ -1,4 +1,13 @@
-// object : store data in key value pair, key is string, value can be anything, object can store function as well, object can store another object as well, object can store array as well, unordered collection of key value pair, key-value called  as property, object is mutable, 
+/* 
+object : 
+store data in key value pair
+key is string, value can be anything
+object can store function as well
+object can store another object as well
+object can store array as well
+unordered collection of key value pair, key-value called  as property
+object is mutable
+*/
 
 
 let student={

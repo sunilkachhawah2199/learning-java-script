@@ -8,7 +8,6 @@ let student ={
 };
 
 // create prototype
-
 let emp={
     name:"John",
     age:20,
@@ -26,3 +25,4 @@ let sunil={
 
 // set emp as prototype of sunil
 sunil.__proto__=emp;
+console.log(emp.tax());

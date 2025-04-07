@@ -1,6 +1,10 @@
 // arrow function --> is a short hand syntax for writing function expressions
 // we use arrow function to write a function in a short hand syntax and who does small task
 
+let greet1= function(){
+    console.log("regular function");
+}
+greet1();
 
 // arrow function without parameters
 let greet =() =>{

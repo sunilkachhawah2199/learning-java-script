@@ -7,6 +7,7 @@ let --> block scope (recommended), can be updated, can't be re-declared, undefin
 const --> block scope, can't be updated, can't be re-declared, must be initialized at the time of declaration
 */
 
+
 let num=5;
 let num1;
 num1=10;

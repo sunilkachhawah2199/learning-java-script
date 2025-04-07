@@ -24,7 +24,7 @@ const person = {
     }
 };
 
-//  Inside the introduce() method, we used this.name and this.age to refer to the name and age keys of the person object.
+//  Inside the introduce() method, we used this.name and this.age to refer to the name and age keys of the same person object.
 
 
 // add method to object
@@ -38,6 +38,8 @@ let student = {
 student.greet = function () {
     console.log("Hello");
 };
+
+console.log(student); // function added
 
 // access greet() method
 student.greet();

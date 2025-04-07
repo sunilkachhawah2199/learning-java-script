@@ -16,7 +16,6 @@ let, const --> when let or const is hoisted it is declared but not initialized
 */
 // use the message variable before declaration
 
-// variable declaration using var keyword
 console.log(message); // ReferenceError: Cannot access 'message' before initialization | it will show undefined in case of var type variable
 
 // variable declaration using let keyword

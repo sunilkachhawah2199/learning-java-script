@@ -35,3 +35,17 @@ let person2 = new Person();
 Person.prototype.age = 25;
 
 console.log(person1.age); // 25
+
+// we can use constructor of ES6
+// constructor is called automatically when object is created using new keyword
+
+class Human{
+    
+    constructor(name, age){
+        this.name=name;
+        this.age=age;
+    }
+}
+
+let h1=new Human("Sunil",25);
+console.log(h1);
